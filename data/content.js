@@ -51,7 +51,7 @@ window.RIZOMA_DATA = {
       { nome: "Felipe Alves Pereira", funcao: "Pesquisador · Enfermeiro · Residência Multiprofissional em Saúde da Família" },
       { nome: "Laís Petrillo Mello de Almeida", funcao: "Pesquisadora · Médica · Residência Médica em Saúde da Família e Comunidade" }
     ],
-    instituicao: "Universidade Estadual de Montes Claros (Unimontes) — Hospital Universitário Clemente de Faria (HUCF)",
+    instituicao: "Universidade Estadual de Montes Claros (Unimontes) — Hospital Universitário Clemente de Faria (HUCF) · Laboratório de Pesquisas Qualitativas Interdisciplinares em Saúde (LabQuali)",
     programa: "Residência Multiprofissional em Saúde da Família",
     extra: ""
   },
