@@ -176,3 +176,5 @@ blockquote small{font-family:var(--serif);font-size:15px;font-style:normal;font-
 button.grande{background:var(--choc);color:var(--papel);border:0;font-weight:400;font-size:34px}
 button.primario{background:var(--oliva);color:var(--choc2)}
 .rodape{color:var(--tan);opacity:1;font-weight:600;letter-spacing:.04em}
+
+.inst.inst2{margin:-4px 0 12px;font-size:15px;letter-spacing:.12em}
