@@ -1,0 +1,6 @@
+fotos/coracao.jpg
+fotos/ervas.jpg
+fotos/passado.jpg
+fotos/cerrado.jpg
+fotos/reis.jpg
+fotos/espiritualidade.jpg

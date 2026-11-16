@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no">
+<title>Ramo, Reza, Raízes — rizoma interativo</title>
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<div id="viewport">
+  <div id="stage">
+    <img id="mapa" src="assets/rizoma.jpg" alt="Rizoma cartográfico da saúde quilombola, desenhado à mão" draggable="false">
+    <svg id="fios" xmlns="http://www.w3.org/2000/svg"></svg>
+    <div id="pontos"></div>
+  </div>
+</div>
+
+<div id="filtros"></div>
+<aside id="painel" hidden></aside>
+
+<nav id="barra">
+  <button id="b-home">Rizoma completo</button>
+  <button id="b-ma">Monte Alto</button>
+  <button id="b-no">Nogueiras</button>
+  <button id="b-linhas">As linhas</button>
+  <button id="b-ficha">Ficha técnica</button>
+  <span class="sep"></span>
+  <button id="b-menos" aria-label="Afastar">−</button>
+  <button id="b-mais" aria-label="Aproximar">+</button>
+  <button id="b-tela">Tela cheia</button>
+  <button id="b-reiniciar">Reiniciar</button>
+</nav>
+
+<section id="intro">
+  <div class="intro-card">
+    <p class="inst">Residência Multiprofissional em Saúde da Família · Unimontes</p>
+    <h1 id="titulo-intro"><img src="assets/logo.png" alt="Ramo, Reza, Raízes — uma cartografia da saúde quilombola" draggable="false"></h1>
+    <p class="orient" id="orient"></p>
+    <div class="intro-btns">
+      <button class="grande primario" id="i-explorar">Explorar o rizoma</button>
+      <button class="grande" id="i-ma">Começar por Monte Alto</button>
+      <button class="grande" id="i-no">Começar pelos Nogueiras</button>
+    </div>
+    <p class="rodape">ESF Novo Delfino · UBS Vila Anália II · Montes Claros-MG</p>
+  </div>
+</section>
+
+<div id="aviso"></div>
+<div id="admin" hidden></div>
+
+<script src="data/content.js"></script>
+<script src="js/app.js"></script>
+<script src="js/admin.js"></script>
+</body>
+</html>
